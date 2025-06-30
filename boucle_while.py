@@ -1,4 +1,5 @@
 """
+
 fruits = ["Banane", "Pomme"]
 viande = ["Veau gras", "Poulet"]
 choix = 0
