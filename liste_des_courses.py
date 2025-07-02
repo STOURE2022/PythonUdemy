@@ -17,45 +17,45 @@ while user != 5:
     nbre_choice = len(panel_choix)
 
     try:
-        user = int(input(f"Quel est votre choix d'action [1 à {nbre_choice}] ? "))
+        user = int(input(f"\nQuel est votre choix d'action [1 à {nbre_choice}] ? "))
     except ValueError:
-        print(f"Erreur : veuillez entrez un chiffre entre 1 à {nbre_choice}.")
+        print(f"\nErreur : veuillez entrez un chiffre entre 1 à {nbre_choice}.")
         continue
 
     if user not in range(1, len(panel_choix)+1):
-        print(f"Votre choix n'est pas compris entre 1 et {nbre_choice}.")
+        print(f"\nVotre choix n'est pas compris entre 1 et {nbre_choice}.")
         continue
 
     if user == 1:
-        user_ajout = input("Quel élément vous voulez ajouter ? ").capitalize()
+        user_ajout = input("\nQuel élément vous voulez ajouter ? ").capitalize()
         liste_course.append(user_ajout)
-        print("Elément ajouter avec succès")
+        print("\nElément ajouter avec succès")
         print(liste_course)
     elif user == 2:
-        user_supp = input("Quel élément vous voulez retirer ? ")
+        user_supp = input("\nQuel élément vous voulez retirer ? ")
         if user_supp in liste_course:
             liste_course.remove(user_supp)
             print(f"L'élément est rétiré avec succès. \n{liste_course}")
         else:
-            print("Votre élément n'existe pas de base dans la liste.")
+            print("\nVotre élément n'existe pas de base dans la liste.")
     elif user == 3:
         if liste_course:
-            print("Voici votre liste de course : ")
+            print("\nVoici votre liste de course : ")
             for index, element in enumerate(liste_course, 1):
                 print(f"{index}. {element}")
         else:
-            print("Votre liste de course est vide.")
+            print("\nVotre liste de course est vide.")
     elif user == 4:
-        secu = input("Attention, vous allez vider votre liste, voulez-vous cette action (oui ou non) ? ").lower()
+        secu = input("\nAttention, vous allez vider votre liste, voulez-vous cette action (oui ou non) ? ").lower()
         if secu == 'oui':
             if liste_course:
                 liste_course.clear()
-                print("Liste vidé avec succès", liste_course)
+                print("\nListe vidé avec succès", liste_course)
             else:
-                print("Votre liste est déjà vide")
+                print("\nVotre liste est déjà vide")
         elif secu == 'non':
-            print("Suppression abandonné !")
+            print("\nSuppression abandonné !")
         else:
-            print("Choix de suppression inconnu, veuillez choisir entre 'OUI' ou 'NON'")
+            print("\nChoix de suppression inconnu, veuillez choisir entre 'OUI' ou 'NON'")
 else:
-    print("Fin du programme !")
+    print("\nFin du programme !")
