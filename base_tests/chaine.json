@@ -1,0 +1,26 @@
+{
+  "nom": "Projet X",
+  "auteurs": [
+    {
+      "nom": "Alice",
+      "skills": {
+        "python": "avancé",
+        "json": "intermédiaire"
+      }
+    },
+    {
+      "nom": "Bob",
+      "skills": {
+        "python": "débutant",
+        "json": "débutant"
+      }
+    },
+    {
+      "nom": "Charlie",
+      "skills": {
+        "python": "intermédiaire",
+        "json": "avancé"
+      }
+    }
+  ]
+}
