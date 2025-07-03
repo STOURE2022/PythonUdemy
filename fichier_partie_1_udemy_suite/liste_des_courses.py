@@ -1,3 +1,8 @@
+import os
+
+path_file = r"C:\Users\Soumailou\Desktop\pythonProject\FormationUdemuPython\PythonUdemy\base_tests\liste_course.json"
+os.path.join(path_file, "liste_course.json")
+
 liste_course = []
 panel_choix = [
     "Ajouter un élément à la liste de courses",

@@ -1,0 +1,13 @@
+{
+    "groupe": "Développeurs Python",
+    "membres": [
+        {
+            "nom": "Alice",
+            "niveau": "avancé"
+        },
+        {
+            "nom": "Bob",
+            "niveau": "intermédiaire"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "groupe": "Développeurs Python",
+    "membres": [
+        {
+            "nom": "Alice",
+            "email": "alice@example.com",
+            "skills": {
+                "python": "avancé",
+                "machine_learning": "intermédiaire"
+            },
+            "projets": [
+                {
+                    "nom": "Analyse de données",
+                    "actif": true
+                },
+                {
+                    "nom": "Dashboard",
+                    "actif": false
+                },
+                {
+                    "nom": "Projet IA Générative",
+                    "actif": true
+                }
+            ]
+        },
+        {
+            "nom": "Bob",
+            "email": "bob@example.com",
+            "skills": {
+                "python": "intermédiaire",
+                "machine_learning": "débutant"
+            },
+            "projets": [
+                {
+                    "nom": "Scraping Web",
+                    "actif": true
+                }
+            ]
+        }
+    ]
+}
