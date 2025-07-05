@@ -1,3 +1,4 @@
+"""
 import json
 import os
 
@@ -103,3 +104,8 @@ while user != 5:
             print("❌ Erreur lors de la sauvegarde :", e)
 
 print("👋 Fin du programme !")
+"""
+
+
+
+
