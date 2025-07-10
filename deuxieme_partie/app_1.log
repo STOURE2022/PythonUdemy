@@ -1,0 +1,5 @@
+2025-07-09 12:14:04,325 - DEBUG - La fonction a bien été exécutée.
+2025-07-09 12:14:04,325 - INFO - Ceci est un message d'information ?
+2025-07-09 12:14:04,325 - WARNING - ceci est un message d'avertissement.
+2025-07-09 12:14:04,325 - ERROR - ceci est un message d'erreur.
+2025-07-09 12:14:04,325 - CRITICAL - ceci est un message critique.
