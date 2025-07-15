@@ -1,0 +1,14 @@
+{
+    "srv-03": {
+        "Moyenne cpu": 91.66666666666667,
+        "Moyenne ram": 92.66666666666667,
+        "Moyenne Disk": 91,
+        "Nombres alertes": 3
+    },
+    "srv-01": {
+        "Moyenne cpu": 91.33333333333333,
+        "Moyenne ram": 80,
+        "Moyenne Disk": 91.66666666666667,
+        "Nombres alertes": 2
+    }
+}

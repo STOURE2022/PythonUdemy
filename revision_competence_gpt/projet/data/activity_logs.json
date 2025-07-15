@@ -1,0 +1,66 @@
+[
+    {
+        "server": "srv-01",
+        "timestamp": "2025-07-14T08:00:00",
+        "cpu": 89,
+        "ram": 78,
+        "disk": 88,
+        "status": "OK"
+    },
+    {
+        "server": "srv-01",
+        "timestamp": "2025-07-14T10:00:00",
+        "cpu": 92,
+        "ram": 80,
+        "disk": 91,
+        "status": "CRITICAL"
+    },
+    {
+        "server": "srv-01",
+        "timestamp": "2025-07-14T16:00:00",
+        "cpu": 93,
+        "ram": 82,
+        "disk": 96,
+        "status": "CRITICAL"
+    },
+    {
+        "server": "srv-02",
+        "timestamp": "2025-07-14T09:00:00",
+        "cpu": 95,
+        "ram": 90,
+        "disk": 96,
+        "status": "WARNING"
+    },
+    {
+        "server": "srv-02",
+        "timestamp": "2025-07-14T12:00:00",
+        "cpu": 89,
+        "ram": 85,
+        "disk": 93,
+        "status": "CRITICAL"
+    },
+    {
+        "server": "srv-03",
+        "timestamp": "2025-07-13T14:00:00",
+        "cpu": 97,
+        "ram": 91,
+        "disk": 99,
+        "status": "CRITICAL"
+    },
+    {
+        "server": "srv-03",
+        "timestamp": "2025-07-13T14:08:00",
+        "cpu": 88,
+        "ram": 90,
+        "disk": 77,
+        "status": "WARNING"
+    },
+    {
+        "server": "srv-03",
+        "timestamp": "2025-07-13T14:15:00",
+        "cpu": 90,
+        "ram": 97,
+        "disk": 97,
+        "status": "CRITICAL"
+    }
+]
